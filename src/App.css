@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+  color: white;
+}
+
+.title{
+  margin-top: 25px;
+  border-top: 3px solid rgba(23, 227, 0, 0.5);
+  border-bottom: 3px solid rgba(23, 227, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.container-subtitle{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.resident{
+  width: 200px;
+  box-shadow: 1px 1px 10px rgba(23, 227, 0, 0.771);
+  padding: 30px;
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.resident{
+  display: grid;
+  width: 80%;
+  grid-template-columns: .5fr;
+}
+
+.container-residents{
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  column-gap: 15rem;
+}
+
+.header{
+  height: 400px;
+  background-image: url(assets/images/rick-n-morty-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+.search{
+  border: none;
+  box-shadow: 1px 1px 10px rgb(255, 0, 0);
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+
+.search:hover{
+  background-color: white;
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
+  position: relative;
+  left: 5px;
+  top: 2px;
+}
+
+.container-pagination{
+  border-top: 3px solid rgba(23, 227, 0, 0.5);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  gap: .2rem;
+}
+
+.input-pagination{
+  width: 30px;
+}
